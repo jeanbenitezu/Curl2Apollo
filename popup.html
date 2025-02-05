@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Curl2Apollo - By Vix Developers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <style>
+        body {
+          width: 780px;
+        }
+        textarea[readonly] {
+            cursor: pointer;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container-xl mt-3">
+      <div class="header">
+        <h3 class="text-muted">Curl2Apollo</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Insert your cURL here:</h5>
+
+          <div class="form-group">
+            <textarea id="curl" class="form-control" style="height: 146px"></textarea>
+          </div>
+          <button type="button" class="btn btn-primary" id="generate">Generate</button>
+        </div>
+
+        <div class="col-md-6">
+          <h5>Your shareable Apollo Sandbox URL(s):</h5>
+          <div class="form-group">
+            <textarea id="output" readonly class="form-control" style="height: 146px"></textarea>
+          </div>
+          <div
+            id="copied"
+            class="alert alert-warning alert-dismissible fade"
+            role="alert"
+            style="background-color: rgb(198, 255, 194); color: rgb(32, 168, 5)"
+          >
+            <strong class="mr-2">Copied!</strong>
+            <button id="incognitoButton" class="btn btn-success btn-sm ml-2">Open in Incognito</button>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>by Televisa-Univision</p>
+      </footer>
+    </div>
+
+    <script src="lz-string.min.js"></script>
+    <script src="parse-curl-js.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

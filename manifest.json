@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Curl2Apollo",
+  "version": "1.0",
+  "description": "Convert cURL commands into shareable Apollo Sandbox URLs instantly!",
+  "permissions": [],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
