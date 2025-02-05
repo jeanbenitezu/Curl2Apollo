@@ -6,15 +6,15 @@
 
 ### ✨ Features
 
-✅ **Instant Conversion** – Paste a cURL command and get an Apollo Sandbox URL.
-✅ **Clipboard Auto-Copy** – Generated URLs are automatically copied for easy sharing.
-✅ **Simple UI** – Clean and intuitive interface for a seamless experience.
+✅ **Instant Conversion** – Paste a cURL command and get an Apollo Sandbox URL.  
+✅ **Clipboard Auto-Copy** – Generated URLs are automatically copied for easy sharing.  
+✅ **Simple UI** – Clean and intuitive interface for a seamless experience.  
 
 ### 🛠 How It Works
 
-🔹 Parses cURL commands using `curl-parser-js`.
-🔹 Compresses and encodes request data with `lz-string`.
-🔹 Generates a valid Apollo Sandbox URL for immediate use.
+🔹 Parses cURL commands using `curl-parser-js`.  
+🔹 Compresses and encodes request data with `lz-string`.  
+🔹 Generates a valid Apollo Sandbox URL for immediate use.  
 
 ### 🔧 Installation
 
